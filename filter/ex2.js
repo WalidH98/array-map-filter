@@ -15,8 +15,12 @@ Exemple d'entrée:
 
  */
 
-function getMultiplesOf(numbers, n) {
-}
+function getMultiplesOf(numbers, n){
+
+    return numbers.filter(function(num) {
+      if (num % n === 0)
+        return num})}
+      
 
 // Ne pas modifier l'export
 module.exports = getMultiplesOf;
